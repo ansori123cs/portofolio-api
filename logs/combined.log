@@ -1,0 +1,12 @@
+{"level":"info","message":"Hello from portofolio app","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [13/Oct/2025:14:44:01 +0000] \"GET / HTTP/1.1\" 200 27 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [13/Oct/2025:14:44:03 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"portofolio-api"}
+{"level":"info","message":"Hello from portofolio app","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [13/Oct/2025:14:57:11 +0000] \"GET / HTTP/1.1\" 200 27 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"portofolio-api"}
+{"level":"info","message":"Hello from portofolio app","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [13/Oct/2025:14:57:18 +0000] \"GET / HTTP/1.1\" 200 27 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [13/Oct/2025:14:57:33 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [13/Oct/2025:14:57:45 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [13/Oct/2025:14:59:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 45 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [13/Oct/2025:14:59:24 +0000] \"POST /health HTTP/1.1\" 404 146 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [13/Oct/2025:14:59:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"portofolio-api"}
