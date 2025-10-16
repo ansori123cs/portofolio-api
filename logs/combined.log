@@ -91,3 +91,19 @@
 {"level":"info","message":"User undefined crated successfully","service":"portofolio-api"}
 {"level":"info","message":"user registered succesfully : ansori_test5@gmail.com","service":"portofolio-api"}
 {"level":"info","message":"::1 - - [14/Oct/2025:15:33:29 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 83 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"User ansori_test5@gmail.com authenticated successfully","service":"portofolio-api"}
+{"level":"info","message":"User SignIn Successfully :ansori_test5@gmail.com ","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [16/Oct/2025:12:33:05 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 128 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"User Sign Out Successfully","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [16/Oct/2025:12:36:02 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 36 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [16/Oct/2025:13:24:45 +0000] \"POST /health HTTP/1.1\" 404 146 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [16/Oct/2025:13:24:51 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [16/Oct/2025:13:24:53 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [16/Oct/2025:13:24:54 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [16/Oct/2025:13:24:55 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"ip":"::1","level":"warn","message":"Rate Limit Exceeded","method":"GET","path":"/health","service":"portofolio-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [16/Oct/2025:13:24:56 +0000] \"GET /health HTTP/1.1\" 403 50 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"ip":"::1","level":"warn","message":"Rate Limit Exceeded","method":"GET","path":"/health","service":"portofolio-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [16/Oct/2025:13:24:57 +0000] \"GET /health HTTP/1.1\" 403 50 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"ip":"::1","level":"warn","message":"Rate Limit Exceeded","method":"GET","path":"/health","service":"portofolio-api","userAgent":"HTTPie"}
+{"level":"info","message":"::1 - - [16/Oct/2025:13:24:58 +0000] \"GET /health HTTP/1.1\" 403 50 \"-\" \"HTTPie\"","service":"portofolio-api"}
