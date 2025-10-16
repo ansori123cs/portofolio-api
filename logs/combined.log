@@ -107,3 +107,4 @@
 {"level":"info","message":"::1 - - [16/Oct/2025:13:24:57 +0000] \"GET /health HTTP/1.1\" 403 50 \"-\" \"HTTPie\"","service":"portofolio-api"}
 {"ip":"::1","level":"warn","message":"Rate Limit Exceeded","method":"GET","path":"/health","service":"portofolio-api","userAgent":"HTTPie"}
 {"level":"info","message":"::1 - - [16/Oct/2025:13:24:58 +0000] \"GET /health HTTP/1.1\" 403 50 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [16/Oct/2025:13:44:46 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"portofolio-api"}
