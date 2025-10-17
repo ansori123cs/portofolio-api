@@ -108,3 +108,49 @@
 {"ip":"::1","level":"warn","message":"Rate Limit Exceeded","method":"GET","path":"/health","service":"portofolio-api","userAgent":"HTTPie"}
 {"level":"info","message":"::1 - - [16/Oct/2025:13:24:58 +0000] \"GET /health HTTP/1.1\" 403 50 \"-\" \"HTTPie\"","service":"portofolio-api"}
 {"level":"info","message":"::1 - - [16/Oct/2025:13:44:46 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:02:40 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:03:11 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:03:11 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:03:40 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:03:41 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:03:42 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"portofolio-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate Limit Exceeded","method":"GET","path":"/health","service":"portofolio-api","userAgent":"HTTPie"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:03:42 +0000] \"GET /health HTTP/1.1\" 403 50 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate Limit Exceeded","method":"GET","path":"/health","service":"portofolio-api","userAgent":"HTTPie"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:03:44 +0000] \"GET /health HTTP/1.1\" 403 50 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:04:13 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:04:46 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:05:18 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:05:21 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"portofolio-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:05:22 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"portofolio-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:05:27 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"portofolio-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate Limit Exceeded","method":"GET","path":"/health","service":"portofolio-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:05:28 +0000] \"GET /health HTTP/1.1\" 403 50 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"portofolio-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate Limit Exceeded","method":"GET","path":"/health","service":"portofolio-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:05:29 +0000] \"GET /health HTTP/1.1\" 403 50 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"portofolio-api"}
+{"ip":"::1","level":"warn","message":"Rate Limit Exceeded","method":"GET","path":"/health","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:05:49 +0000] \"GET /health HTTP/1.1\" 403 50 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:06:24 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:06:55 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:07:26 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:07:57 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:08:28 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"User undefined crated successfully","service":"portofolio-api"}
+{"level":"info","message":"user registered succesfully : paong@gmail.com","service":"portofolio-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:08:51 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 75 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:08:59 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"User paong@gmail.com authenticated successfully","service":"portofolio-api"}
+{"level":"info","message":"User SignIn Successfully :paong@gmail.com ","service":"portofolio-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [17/Oct/2025:13:09:27 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 113 \"-\" \"HTTPie\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:09:29 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:10:38 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:11:10 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:11:41 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:12:13 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:12:46 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:13:18 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:13:51 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:14:22 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:14:53 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:15:23 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}
+{"level":"info","message":"::1 - - [17/Oct/2025:13:15:54 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"portofolio-api"}

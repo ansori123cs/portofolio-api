@@ -8,6 +8,13 @@
       "when": 1760364541711,
       "tag": "0000_smooth_strong_guy",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1760708027386,
+      "tag": "0001_certain_ricochet",
+      "breakpoints": true
     }
   ]
 }
