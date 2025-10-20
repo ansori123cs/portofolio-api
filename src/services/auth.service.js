@@ -62,6 +62,7 @@ export const authenticateUser = async ({ email, password }) => {
       .where(eq(users.email, email))
       .limit(1);
 
+    console.log(exitingUser);
     if (!exitingUser) {
       throw new Error('User not found');
     }

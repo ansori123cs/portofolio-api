@@ -1,21 +1,28 @@
+import {
+  deleteUserById,
+  fetchAllUsers,
+  fetchUserById,
+  updateUserById,
+} from '#src/controllers/users.controller.js';
+import {
+  authenticateToken,
+  requireRole,
+} from '#src/middleware/auth.middleware.js';
 import express from 'express';
 
 const usersRoutes = express.Router();
 
-usersRoutes.get('/', (req, res) => {
-  res.status(200).json({ message: 'get all users ' });
-});
+usersRoutes.get('/', authenticateToken, fetchAllUsers);
 
-usersRoutes.get('/:id', (req, res) => {
-  res.status(200).json({ message: 'get specified user by id' });
-});
+usersRoutes.get('/:id', authenticateToken, fetchUserById);
 
-usersRoutes.put('/:id', (req, res) => {
-  res.status(200).json({ message: 'edited users' });
-});
+usersRoutes.put('/:id', authenticateToken, updateUserById);
 
-usersRoutes.delete('/:id', (req, res) => {
-  res.status(200).json({ message: 'deleted specified users by id' });
-});
+usersRoutes.delete(
+  '/:id',
+  authenticateToken,
+  requireRole(['admin']),
+  deleteUserById
+);
 
 export default usersRoutes;

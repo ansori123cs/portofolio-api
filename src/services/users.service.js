@@ -1,8 +1,7 @@
 import { db } from '#src/config/database.js';
 import logger from '#src/config/logger.js';
-import { users, users } from '#src/models/user.model.js';
+import { users } from '#src/models/user.model.js';
 import { eq } from 'drizzle-orm';
-import { error } from 'winston';
 
 export const getAllUsers = async () => {
   try {

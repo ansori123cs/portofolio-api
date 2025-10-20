@@ -10,11 +10,11 @@ export const userIdSchema = z.object({
 
 export const updateSchema = z
   .object({
-    name: z.string().min(2).max(255).trim().optimional(),
+    name: z.string().min(2).max(255).trim().optional(),
     email: z.string().min(2).max(225).toLowerCase().trim().optional(),
     role: z.enum(['user', 'admin']).optional(),
   })
-  .revine(
+  .refine(
     data => {
       Object.keys(data).lenth;
     },
