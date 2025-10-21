@@ -12,6 +12,23 @@ import express from 'express';
 
 const usersRoutes = express.Router();
 
+/**
+ * @swagger
+ * tags:
+ *   name: User
+ *   description: API untuk mengelola User
+ */
+
+/**
+ * @swagger
+ * /users:
+ *   get:
+ *     summary: Mendapatkan semua user
+ *     tags: [users]
+ *     responses:
+ *       200:
+ *         description: Daftar users
+ */
 usersRoutes.get('/', authenticateToken, fetchAllUsers);
 
 usersRoutes.get('/:id', authenticateToken, fetchUserById);

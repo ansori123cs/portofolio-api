@@ -7,7 +7,8 @@ import cookieParser from 'cookie-parser';
 import authRoutes from '#routes/auth.routes.js';
 import securityMiddleware from '#middleware/security.middleware.js';
 import usersRoutes from './routes/users.routes.js';
-
+import swaggerUi from 'swagger-ui-express';
+import { swaggerSpec } from './swagger/swagger.config.js';
 const app = express();
 
 app.use(helmet());
@@ -40,6 +41,8 @@ app.get('/health', (req, res) => {
 app.get('/api', (req, res) => {
   res.status(200).json({ message: 'portofolio api is running' });
 });
+
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use('/api/auth', authRoutes);
 app.use('/api/users', usersRoutes);

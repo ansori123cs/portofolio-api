@@ -9,7 +9,6 @@ export const signUp = async (req, res, next) => {
   try {
     const validationResult = signUpSchema.safeParse(req.body);
     if (!validationResult.success) {
-      console.log(validationResult.error);
       return res.status(400).json({
         error: 'error validation',
         details: formatValidationError(validationResult.error),
