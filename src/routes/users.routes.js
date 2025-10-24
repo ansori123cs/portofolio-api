@@ -31,6 +31,16 @@ const usersRoutes = express.Router();
  */
 usersRoutes.get('/', authenticateToken, fetchAllUsers);
 
+/**
+ * @swagger
+ * /users:id:
+ *    get:
+ *      summary: Mendapatkan user berdasarkan id
+ *      tags: [users]
+ *      responses:
+ *        200:
+ *          description: user detail
+ */
 usersRoutes.get('/:id', authenticateToken, fetchUserById);
 
 usersRoutes.put('/:id', authenticateToken, updateUserById);
